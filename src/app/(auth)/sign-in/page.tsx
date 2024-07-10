@@ -5,10 +5,14 @@ import {
   ThemeSupa,
 } from '@supabase/auth-ui-shared'
 import { supabase } from '@/lib/supabase/products'
+import Image from 'next/image'
+import logo from "../../../../public/logo.png";
 
 const page = () => {
   return (
-    <div className='w-[24%] m-auto mt-40'>
+    <div className='w-[24%] m-auto mt-24'>
+      <div className='w-[100%] flex items-center justify-center mb-16'> <Image src={logo} alt={"logo"} width={200} height={200} className='m-auto'/></div>
+      
     <Auth
     supabaseClient={supabase}
     providers={['google', 'github']}

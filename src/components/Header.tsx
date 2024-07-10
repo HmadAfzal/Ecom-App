@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import amazonLogo from "../../public/amazon-logo-2.webp";
+import logo from "../../public/logo.png";
 import { BiCart } from "react-icons/bi";
 import { CgSearch } from "react-icons/cg";
 import Link from 'next/link';
@@ -49,14 +49,14 @@ const Header = () => {
             <div className='bg-[#131921] text-white py-1'>
                 <div className='flex items-center justify-between w-[90%] mx-auto'>
                     <Link href={'/'} className='w-[10%]'>
-                        <Image src={amazonLogo} alt={"logo"} width={150} height={150} />
+                        <Image src={logo} alt={"logo"} width={150} height={150} />
                     </Link>
                     <div className='flex items-center w-[60%]'>
                         <input 
                         value={query} 
                         onChange={(e)=>setQuery(e.target.value)}
                         type="text" 
-                        className='w-full p-2 rounded-l-md outline-none text-black' placeholder='Search Amazon.in' />
+                        className='w-full p-2 rounded-l-md outline-none text-black' placeholder='Search Quickart.in' />
                         <div 
                         onClick={searchHandler}
                         className='bg-[#FEBD69] p-2 cursor-pointer hover:bg-[#ffad43]   rounded-r-md'>
