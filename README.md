@@ -9,12 +9,11 @@ QuickArt is a modern and responsive e-commerce application built with Next.js, S
 - Database and Authentication: Supabase
 - State Management: Redux
 - Styling: TailwindCSS
-- Installation
 
 
 ## Getting Started
 
-To get started with MystyLink, follow these steps:
+To get started with QuicKart, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Install the necessary dependencies using `npm install`.
