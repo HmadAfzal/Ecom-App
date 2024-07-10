@@ -31,8 +31,8 @@ SUPABASE_EON_KEY='your-supabase-eon-key'
 
 
 ### Contact
-Hmad Afzal - hmadafzal00@gmail.com.com
-portfolio -  [Hmad Afzal](https://hmadafzal.vercel.app/)
+[Hmad Afzal](https://hmadafzal.vercel.app/) - hmadafzal00@gmail.com.com
+ 
 
 ![App SS](/public/signin.png)
 ![App SS](/public/search.png)
